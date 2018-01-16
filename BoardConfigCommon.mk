@@ -22,8 +22,8 @@ BOARD_HARDWARE_CLASS += device/sony/scorpion_windy/cmhw
 # For two-stage boot configuration
 TARGET_RECOVERY_DEVICE_DIRS := device/sony/scorpion_windy
 
-# Kernel properties
-TARGET_KERNEL_CONFIG := shinano_scorpion_defconfig
+# Kernel properties (scorpion device overwrites this)
+TARGET_KERNEL_CONFIG := lineageos_shinano_scorpion_windy_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
